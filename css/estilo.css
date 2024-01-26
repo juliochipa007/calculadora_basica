@@ -1,0 +1,98 @@
+body {
+  min-height: 100vh;
+  background-color: rgba(216, 216, 216, 0.89);
+  display: grid;
+  place-items: center;
+}
+
+.calculadora {
+  background-color: rgba(23, 23, 43, 0.938);
+  color: white;
+  width: 400px;
+  max-width: 100%;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.5rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.8); /* Agregar sombra */
+}
+
+.cabecera {
+  grid-column: 1 / -1;
+  font-family: "DS Digital", sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.pantalla {
+  grid-column: 1 / -1;
+  background-color: rgba(16, 16, 61, 0.89);
+  padding: 1.5rem;
+  font-family: "DS Digital", sans-serif;
+  font-size: 2rem;
+  text-align: right;
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+  overflow: hidden; /* para limitar el contenido visible */
+  white-space: nowrap; /* para evitar saltos de línea */
+}
+
+.btn {
+  background-color: rgba(255, 255, 255, 0.95);
+  padding: 1.5rem 0.5rem;
+  font-size: 1.5rem;
+  border: 0;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: rgba(255, 255, 255, 0.85);
+}
+
+#cero {
+  grid-column: span 2;
+}
+
+#inicio {
+  font-weight: bold;
+  background-color: rgb(247, 59, 2);
+  color: white;
+}
+
+#inicio:hover {
+  background-color: rgb(202, 47, 0);
+}
+
+#igual {
+  grid-row: span 2;
+  background-color: rgb(2, 137, 247);
+  color: white;
+  font-weight: bold;
+}
+
+#igual:hover {
+  background-color: rgb(0, 111, 202);
+}
+
+#operacion {
+  background-color: rgba(131, 131, 131, 0.815);
+  color: white;
+}
+
+#operacion:hover {
+  background-color: rgba(104, 104, 104, 0.815);
+}
+
+#borrar {
+  background-color: rgba(131, 131, 131, 0.815);
+  color: white;
+}
+
+#borrar:hover {
+  background-color: rgba(104, 104, 104, 0.815);
+}
