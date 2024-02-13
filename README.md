@@ -1,4 +1,4 @@
-# CALCULADORA QUE USA EL TECLADO DE TU PC
+# CALCULADORA BASICA QUE USA EL TECLADO DE TU PC
 
 Calculadora simple que usa el teclado de tu PC o laptop como tambien podemos usarlo con el mouse, es muy simple y realiza las 04 operaciones matematicas basicas.
 <p align="center">
